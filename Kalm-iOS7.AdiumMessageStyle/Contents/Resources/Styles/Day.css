@@ -42,3 +42,8 @@ body {
 	background: #ead3f8;
 	color: #9b7ca7;
 }
+
+.header {
+	background: rgba(255,255,255,0.8);
+	border-bottom-color: #ededed;
+}

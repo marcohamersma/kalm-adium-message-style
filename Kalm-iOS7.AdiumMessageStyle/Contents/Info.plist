@@ -5,15 +5,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.0b</string>
+	<string>0.13</string>
 	<key>CFBundleIdentifier</key>
-	<string>jeroen.kalm.style</string>
+	<string>marco.kalm.style</string>
 	<key>CFBundleName</key>
-	<string>Kalm</string>
+	<string>Kalm iOS7</string>
 	<key>CFBundlePackageType</key>
 	<string>AdIM</string>
 	<key>DefaultFontFamily</key>
-	<string>Helvetica</string>
+	<string>Helvetica Neue</string>
 	<key>DefaultFontSize</key>
 	<integer>13</integer>
 	<key>MessageViewVersion</key>

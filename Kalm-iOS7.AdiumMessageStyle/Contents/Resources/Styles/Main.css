@@ -1,6 +1,7 @@
 body {
-	line-height: 1.5em;
+	line-height: 1.35em;
 	margin: 0px;
+	-webkit-font-smoothing: antialiased;
 }
 
 .block {
@@ -27,7 +28,7 @@ body {
 	height: 36px;
 	float: left;
 	margin: 1px 0 0 -48px;
-	border-radius: 3px;
+	border-radius: 50%;
 }
 
 .sender {
@@ -60,6 +61,7 @@ body {
 .status {
 	margin-top: -1px;
 	border-bottom: 0px;
+	padding: 7px 50px 7px 15px;
 }
 .status a {
 	color: inherit;
@@ -76,3 +78,19 @@ body {
 		.status.fileTransferCompleted .message {
 			font-style: normal;
 		}
+
+.header {
+	padding: 10px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-weight: 600;
+	border-bottom: 1px solid;
+	z-index: 1;
+}
+
+.headerPlaceholder {
+	height: 38px;
+}
