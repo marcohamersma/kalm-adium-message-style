@@ -1,28 +1,13 @@
 kalm-adium-message-style
 ========================
 
-A simple, clean message style for [Adium IM](http://adium.im/), the OS X instant messaging client. You can also check the [Xtra website](http://adiumxtras.com/index.php?a=xtras&xtra_id=8410).
+This is a fork of Jeroen van Meerendonk's [Kalm](https://github.com/jeroen/kalm-adium-message-style) Message Style:
 
-This is my first message style, so be patient!
+    A simple, clean message style for [Adium IM](http://adium.im/), the OS X instant messaging client. 
 
-![Preview](http://i.imgur.com/YK8nsno.png)
-
-
-## Change log
-
-### 1.0b
-* New style added: "Night" (dark), and the default one is now "Day".
-* New option: "Pong". The conversation alternates from side to side.
-* This version is still in beta. I haven't tested it so much. Report any bugs, please! :)
-
-### 0.9
-* Code refactoring and bug fixing.
-* No user icons option (for true).
-* Little restyling.
-
-### 0.6
-* Added styles for context messages.
-* Added README.md with preview.
-
-### 0.5
-* First commit.
+I've adjusted it to be a bit more iOS7 like:
+- Avatars are now round
+- Main font is now Helvetica Neue, without sub-pixel antialiasing to resemble the font rendering on iOS
+- Introduces a header for chats displaying the recipient's name or group chat topic
+- Introduces an additional variant that removes the sender names from the chat. Useful for 1-on-1 chats when the avatar or header speaks enough.
+- Status messages don't take up as much space as they used to (especially troublesome on group chats). I aim to experiment more with this. 
